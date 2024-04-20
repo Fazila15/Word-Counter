@@ -1,9 +1,13 @@
 {
-  "name": "word-counter",
+  "name": "fazila-malik-word-counter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
